@@ -76,7 +76,7 @@ html {
     gap: 20px;
 }
 
-button{
+button {
     border-radius: 5px;
     background: var(--3-a-68-b-8, #3A68B8);
     border: none;
@@ -100,9 +100,71 @@ button{
     flex-shrink: 0;
 }
 
-.brands{
+.brands {
     margin: 0 386.55px 99px 388px;
     gap: 71.36px;
     display: flex;
     justify-content: center;
+}
+
+.content {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 364px);
+}
+
+.item__h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    width: 90%;
+    opacity: 0.7;
+}
+
+.item__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 90%;
+    opacity: 0.7;
+}
+
+
+.item1 {
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background: #132035;
+    width: 332px;
+    height: 389px;
+}
+
+.item2__big {
+    grid-column: span 2;
+    grid-row: span 2;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background: #132035;
+}
+
+.img__big {
+    width: 306px;
+    height: 322px;
 }
