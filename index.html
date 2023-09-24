@@ -38,9 +38,11 @@
                     </button>
                 </div>
             </div>
-            <div class="image">
-                <img src="./img/9 1.png" alt="img">
-            </div>
+            <picture class="image">
+                <source media="(max-width: 426px)" srcset="./img/9_1_mobile.png">
+                <source media="(min-width: 427px) and (max-width: 1439px)" srcset="./img/9_1.png">
+                <img src="./img/9_1.png" alt="img">
+            </picture>
         </div>
         <div class="brands">
             <img src="./img/Group 400.png" alt="brand1">
@@ -68,7 +70,7 @@
                     layouts and visual mockups.</p>
             </div>
             <div class="item2__big"><img class="img__big" src="./grid_img/welcome-3 1-5.png" alt="">
-                <h2 class="item__h2 big">In print, and publishing industries for previewing layouts and visual mockups.
+                <h2 class="item__h2 ">In print, and publishing industries for previewing layouts and visual mockups.
                 </h2>
                 <p class="item__text big">Lorem ipsum is placeholder text commonly used in print, and publishing
                     industries

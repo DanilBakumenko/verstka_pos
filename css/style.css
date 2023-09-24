@@ -49,7 +49,7 @@ html {
 
 .title {
     padding-bottom: 40px;
-    width: 604px;
+    width: auto;
     color: var(--ffffff, #FFF);
     font-family: Open Sans;
     font-size: 55px;
@@ -101,7 +101,8 @@ button {
 }
 
 .brands {
-    margin: 0 386.55px 99px 388px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 71.36px;
     display: flex;
     justify-content: center;
@@ -167,4 +168,139 @@ button {
 .img__big {
     width: 306px;
     height: 322px;
+}
+
+@media (min-width: 427px) and (max-width: 1439px) {
+    .header {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .central_frame {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .brands {
+        max-width: 600px;
+        gap: 32px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img__big {
+        width: 98px;
+        height: 103px;
+    }
+
+    .item2__big {
+        width: 332px;
+        height: 660px;
+        margin: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        background: #132035;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 426px) {
+    .header {
+        width: auto;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigate {
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .central_frame {
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub_title {
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+        text-transform: uppercase;
+    }
+
+    .text1 {
+        width: auto;
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+    }
+
+    .title {
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 130%;
+    }
+
+    .buttons {
+        display: flex;
+        width: 343px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .image {
+        width: 343px;
+        height: 344px;
+    }
+
+
+    .brands {
+        max-width: auto;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
